@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="resort"></p>
+    <script>
+        var resortmaster={
+            resortservant:"volvo",
+            resortservant002:"server",
+            resortservant003:"hotserver",
+        }
+        document.getElementById("demo").innerHTML= resortmaster.resortservant+resortmaster.resortservant002+resortmaster.resortservant003
+    document.write("test value "+Math.acos(-1))
+    document.write("<br>")
+    document.write("test value"+Math.asin(0))
+
+    function findmax(){
+        var max=0
+        for(i=0;i<arguments.length;i++){
+            if(arguments[i]>max){
+                max=arguments[i]
+        }
+    }
+    return max
+}
+document.getElementById("resort").innerHTML=findmax(5,10,15,20,)
+    </script>
+</body>
+</html>
